@@ -1,0 +1,17 @@
+{
+  "version": "0.2",
+  "language": "en",
+  "words": [
+    "Devel",
+    "URDF",
+    "urdf",
+    "RTAB",
+    "rtab",
+    "Avenir",
+    "robotics",
+    "ROS2"
+  ],
+  "ignorePaths": [
+    "node_modules/**"
+  ]
+} 

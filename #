@@ -1,0 +1,111 @@
+# Knowledge Map
+
+A **Vue 3** project that visualizes a knowledge map using **Vis.js**.
+
+## 🚀 Installation & Setup (Linux)
+
+Follow these steps to install and run the project on a **Linux system**.
+
+### **1️⃣ Install Node.js & npm**
+Ensure you have **Node.js** and **npm** installed. If not, install them:
+
+#### **Ubuntu/Debian**
+```bash
+sudo apt update && sudo apt install nodejs npm -y
+```
+
+#### **Fedora**
+```bash
+sudo dnf install nodejs npm -y
+```
+
+#### **Arch Linux**
+```bash
+sudo pacman -S nodejs npm
+```
+
+---
+
+### **2️⃣ Clone the Repository**
+```bash
+git clone https://github.com/YOUR_GITHUB_USERNAME/knowledge-map.git
+cd knowledge-map
+```
+
+---
+
+### **3️⃣ Install Dependencies**
+```bash
+npm install
+```
+
+---
+
+### **4️⃣ Run the Development Server**
+Start the Vue development server:
+```bash
+npm run dev
+```
+
+This will output a local development URL, such as:
+```
+  Local:   http://localhost:5173/
+```
+
+Open your browser and visit **http://localhost:5173** to see the application running.
+
+---
+
+## 🌟 Running as a Background Process
+If you want to keep the server running after closing the terminal:
+```bash
+nohup npm run dev > output.log 2>&1 &
+disown
+```
+This will run the process in the background and store logs in `output.log`.
+
+---
+
+## 🔧 Project Structure
+```
+knowledge-map/
+├── src/
+│   ├── components/
+│   │   ├── KnowledgeMap.vue  # Main visualization component
+│   │   └── OtherComponents.vue
+│   ├── assets/
+│   ├── views/
+│   ├── router/
+│   ├── store/
+│   ├── App.vue
+│   ├── main.ts
+├── public/
+├── package.json
+├── README.md  # Project documentation
+└── vite.config.js  # Vite configuration
+```
+
+---
+
+## 📜 License
+This project is licensed under the **MIT License**.
+
+---
+
+## 🤝 Contributing
+Feel free to fork the repository and submit pull requests!
+
+---
+
+## 🛠️ Troubleshooting
+- **Port Issues?** Change the port in `vite.config.js`.
+- **Dependency Errors?** Try running:
+  ```bash
+  rm -rf node_modules package-lock.json
+  npm install
+  ```
+
+---
+
+### 🚀 Happy Coding!
+
